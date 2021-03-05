@@ -12,6 +12,31 @@ body{
 
 
 
+
+
+
+.anime_test {
+    height:  10px;             /* 高さ指定 */
+    width:  200px;              /* 幅指定 */
+    background-color: #2196F3;  /* 背景色指定 */
+    position: relative;         /* 位置指定 */
+    animation: anime 2s 0s infinite alternate;  /* アニメーション指定 */
+}
+
+@keyframes anime {
+    0% {
+        background-color: #f00;         /* 背景色指定 */
+        left: 0;
+    }
+    50% {
+        background-color: #4caf50;      /* 背景色指定 */
+        left: 200px;
+    }
+    100% {
+        background-color: #2196F3;      /* 背景色指定 */
+        left: 400px;
+    }
+}
 $color: #2194E0;
 
 @keyframes sheen {
@@ -63,31 +88,4 @@ $color: #2194E0;
      transition: all 0.5s ease-in-out;
     }
   }
-}
-
-
-
-
-
-.anime_test {
-    height:  200px;             /* 高さ指定 */
-    width:  200px;              /* 幅指定 */
-    background-color: #2196F3;  /* 背景色指定 */
-    position: relative;         /* 位置指定 */
-    animation: anime 2s 0s infinite alternate;  /* アニメーション指定 */
-}
-
-@keyframes anime {
-    0% {
-        background-color: #f00;         /* 背景色指定 */
-        left: 0;
-    }
-    50% {
-        background-color: #4caf50;      /* 背景色指定 */
-        left: 200px;
-    }
-    100% {
-        background-color: #2196F3;      /* 背景色指定 */
-        left: 400px;
-    }
 }
