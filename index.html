@@ -1,13 +1,89 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>練習用</title>
+<!DOCTYPE html><!-- このファイルはHTMLですという宣言 -->
+<html><!-- ここからHTMLが始まりますというタグ -->
+<head><!-- ここから裏の設定ですよという宣言 -->
+	<meta charset="utf-8"><!-- 文字化け防止の記述 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- ややこしいので無視してOK -->
+	<title>練習用 30分で作るホームページ</title><!-- ページのタイトルを入れます -->
+	<style>
+	h1 {
+		font-weight: normal;
+		padding-bottom: 10px;
+		text-align: center;
+		position: relative;
+		margin: 0 0 30px 0;
+		letter-spacing: 5px;
+	}
+
+	p {
+		width: 50%;
+		line-height: 2;
+		display: inline-block;
+		background-color: #03A9F4;
+		padding: 20px;
+		position: relative;
+		z-index: 999;
+		margin: 50px 0 0;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		background-color: #F44336;
+		display: block;
+		padding: 15px 25px;
+		border-radius: 5px;
+		box-shadow: 0 4px 0 0 #9e2b23;
+		font-weight: bold;
+		width: 300px;
+		text-align: center;
+		margin: 110px auto 0;
+		letter-spacing: 2px;
+	}
+
+	h1::after {
+		content: "";
+		display: block;
+		border-bottom: solid 5px #2196F3;
+		position: absolute;
+		width: 100px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		bottom: -5px;
+	}
+
+	html {
+		background-color: #a8e4ff;
+	}
+
+	body {
+		background-color: #fff;
+		padding: 30px 30px 30px;
+		max-width: 700px;
+		margin: 20px auto;
+		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
+		position: relative;
+	}
+
+	img {
+		height: 300px;
+		display: inline-block;
+		vertical-align: top;
+		position: absolute;
+		right: 30px;
+	}
+	</style>
 	<link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-	<p>紅茶</p>
-	<p class="re">紅茶</p>
+</head><!-- ここまでがうらの設定ですよという宣言 -->
+<body><!-- ここからページに表示される内容ですよという宣言 -->
+	    <h1>30分で作るホームページ</h1>
+     	<p>紅茶 初心者でも30分でホームページは作れます。難しいことは何もありません。まずはサクッと作って、流れをしっかり掴んでいきましょう</p>
+			<img src="test.jpg" alt=""><!-- 画像を表示 -->
+			<a href="https://www.sejuku.net/blog/">解説していたブログはこちら</a><!-- リンクを表示 -->
+	    <p class="re">紅茶</p>
 	<p>hell<span class ="green">o</span>world</p>
 	<img src="bluebird.png">
         <img src="bluebird.png">
@@ -24,5 +100,5 @@
 
 
 </div>
-</body>
-</html>
+</body><!-- ここまでがページに表示される内容ですよという宣言 -->
+</html><!-- ここまでがHTMLですという終わりの宣言 -->
