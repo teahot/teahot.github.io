@@ -1,9 +1,9 @@
-【作業開始前に必ずすること】
+【cloud上が更新されていた場合、cloud→local】
 ・作業のフォルダのディレクトリ内に移動
 ・Git Bashを作業フォルダ内で開く
 ・git pull origin master
 
-【更新や追加をした場合に必ずすること】
+【local→cloud】
 ・git add 更新または追加したファイル名
 ・git commit -m "コメント"
 ・git push origin master
