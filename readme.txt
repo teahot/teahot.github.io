@@ -1,4 +1,4 @@
-git【作業開始前に必ずすること】
+gitgitgit【作業開始前に必ずすること】
 ・作業のフォルダのディレクトリ内に移動
 ・Git Bashを作業フォルダ内で開く
 ・git pull origin master
